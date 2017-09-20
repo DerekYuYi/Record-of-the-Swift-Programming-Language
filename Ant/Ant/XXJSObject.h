@@ -14,7 +14,7 @@
 
 - (void)testWithoutParameter;
 - (NSString *)testWithOneParameter:(NSString *)message;
-- (NSString *)testWithTwoParameter:(NSString *)messageOne secondParameter:(NSString *)messageTwo;
+- (NSString *)testWithOneParameter:(NSString *)messageOne secondParameter:(NSString *)messageTwo;
 - (void)postMessage:(NSString *)message;
 @end
 
