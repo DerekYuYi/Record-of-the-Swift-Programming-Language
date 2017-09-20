@@ -2,7 +2,7 @@
 //  XXWKOCToJSViewController.h
 //  Ant
 //
-//  Created by geetest on 2017/9/20.
+//  Created by YuYi on 2017/9/20.
 //  Copyright © 2017年 Summer. All rights reserved.
 //
 

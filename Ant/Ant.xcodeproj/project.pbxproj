@@ -16,6 +16,7 @@
 		BF92CEB71F720BEF008A91C8 /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = BF92CEB01F720BEF008A91C8 /* index.js */; };
 		BF92CEBA1F7217AC008A91C8 /* XXUIOCToJSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF92CEB91F7217AC008A91C8 /* XXUIOCToJSViewController.m */; };
 		BF92CEC11F7247F1008A91C8 /* XXWKOCToJSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF92CEC01F7247F1008A91C8 /* XXWKOCToJSViewController.m */; };
+		FE166B431F72C2CB0028C14F /* XXWeakScriptMessageHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = FE166B421F72C2CB0028C14F /* XXWeakScriptMessageHandler.m */; };
 		FE1B446A1F71697F0068C42C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1B44691F71697F0068C42C /* main.m */; };
 		FE1B446D1F71697F0068C42C /* XXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1B446C1F71697F0068C42C /* XXAppDelegate.m */; };
 		FE1B44701F71697F0068C42C /* XXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1B446F1F71697F0068C42C /* XXViewController.m */; };
@@ -56,6 +57,8 @@
 		BF92CEB91F7217AC008A91C8 /* XXUIOCToJSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXUIOCToJSViewController.m; sourceTree = "<group>"; };
 		BF92CEBF1F7247F1008A91C8 /* XXWKOCToJSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXWKOCToJSViewController.h; sourceTree = "<group>"; };
 		BF92CEC01F7247F1008A91C8 /* XXWKOCToJSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXWKOCToJSViewController.m; sourceTree = "<group>"; };
+		FE166B411F72C2CB0028C14F /* XXWeakScriptMessageHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXWeakScriptMessageHandler.h; sourceTree = "<group>"; };
+		FE166B421F72C2CB0028C14F /* XXWeakScriptMessageHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXWeakScriptMessageHandler.m; sourceTree = "<group>"; };
 		FE1B44651F71697F0068C42C /* Ant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE1B44691F71697F0068C42C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FE1B446C1F71697F0068C42C /* XXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXAppDelegate.m; sourceTree = "<group>"; };
@@ -106,6 +109,8 @@
 			children = (
 				BF92CEBF1F7247F1008A91C8 /* XXWKOCToJSViewController.h */,
 				BF92CEC01F7247F1008A91C8 /* XXWKOCToJSViewController.m */,
+				FE166B411F72C2CB0028C14F /* XXWeakScriptMessageHandler.h */,
+				FE166B421F72C2CB0028C14F /* XXWeakScriptMessageHandler.m */,
 			);
 			name = WKWebView;
 			sourceTree = "<group>";
@@ -355,6 +360,7 @@
 				BF92CEBA1F7217AC008A91C8 /* XXUIOCToJSViewController.m in Sources */,
 				FE1B44701F71697F0068C42C /* XXViewController.m in Sources */,
 				BF92CEC11F7247F1008A91C8 /* XXWKOCToJSViewController.m in Sources */,
+				FE166B431F72C2CB0028C14F /* XXWeakScriptMessageHandler.m in Sources */,
 				FE1B446D1F71697F0068C42C /* XXAppDelegate.m in Sources */,
 				FE1B446A1F71697F0068C42C /* main.m in Sources */,
 				FE1B44A21F716B6C0068C42C /* XXJSObject.m in Sources */,
