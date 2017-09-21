@@ -107,10 +107,10 @@
 		BF92CEBE1F7247C4008A91C8 /* WKWebView */ = {
 			isa = PBXGroup;
 			children = (
-				BF92CEBF1F7247F1008A91C8 /* XXWKOCToJSViewController.h */,
-				BF92CEC01F7247F1008A91C8 /* XXWKOCToJSViewController.m */,
 				FE166B411F72C2CB0028C14F /* XXWeakScriptMessageHandler.h */,
 				FE166B421F72C2CB0028C14F /* XXWeakScriptMessageHandler.m */,
+				BF92CEBF1F7247F1008A91C8 /* XXWKOCToJSViewController.h */,
+				BF92CEC01F7247F1008A91C8 /* XXWKOCToJSViewController.m */,
 			);
 			name = WKWebView;
 			sourceTree = "<group>";
