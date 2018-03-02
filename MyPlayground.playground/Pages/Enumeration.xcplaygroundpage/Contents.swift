@@ -48,7 +48,7 @@ case .qrCode(let productCode):
     print("QR code: \(productCode).")
 }
 
-// Raw Values (枚举可以通过 raw values 来实现递增，但是前提是此枚举类型是某一特定的类型, 这些类型可以是 string, character, floating-point, 每个 raw value 在枚举类型内一定是唯一的)
+//: 2. Raw Values (枚举可以通过 raw values 来实现递增，但是前提是此枚举类型是某一特定的类型, 这些类型可以是 string, character, floating-point, 每个 raw value 在枚举类型内一定是唯一的)
 enum ASCIIControlCharacter: Character {
     case tab = "\t"
     case lineFeed = "\n"
@@ -57,3 +57,17 @@ enum ASCIIControlCharacter: Character {
 
 let a = ASCIIControlCharacter.tab.rawValue
 let b = ASCIIControlCharacter.carriageReturn.rawValue
+
+// 跟 OC 中的枚举一样，Swift 中的枚举也有隐式赋值这一说。当枚举类型是用来存储 整型 或者 字符串类型时，Swift 都会自动赋给隐式值。整型默认第一个值 raw value 为 0, 如果有赋值，则往上递增； 字符串类型时候会给默认的自身字符串值.
+enum PlanetInt: Int {
+    case mercury, venus = 8, earth, mars, jupiter, saturn, uranus, neptune
+}
+
+enum CompassPointString: String {
+    case north, south, east, west
+}
+
+let me = PlanetInt.mercury.rawValue
+let earthsOrder = PlanetInt.earth.rawValue
+
+let sunsetDirection = CompassPointString.west.rawValue
