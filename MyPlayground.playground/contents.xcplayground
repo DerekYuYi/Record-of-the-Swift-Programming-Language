@@ -5,5 +5,7 @@
         <page name='Strings and Charaters'/>
         <page name='Functions'/>
         <page name='Closures'/>
+        <page name='Enumeration'/>
+        <page name='Classes and Structures'/>
     </pages>
 </playground>
