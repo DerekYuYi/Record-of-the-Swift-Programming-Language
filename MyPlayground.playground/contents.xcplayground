@@ -9,5 +9,6 @@
         <page name='Classes and Structures'/>
         <page name='Properties'/>
         <page name='Extensions'/>
+        <page name='Protocols'/>
     </pages>
 </playground>
