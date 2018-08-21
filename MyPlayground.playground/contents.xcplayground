@@ -10,5 +10,7 @@
         <page name='Properties'/>
         <page name='Extensions'/>
         <page name='Protocols'/>
+        <page name='Methods'/>
+        <page name='Subscripts'/>
     </pages>
 </playground>
