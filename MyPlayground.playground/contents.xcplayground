@@ -12,5 +12,6 @@
         <page name='Protocols'/>
         <page name='Methods'/>
         <page name='Subscripts'/>
+        <page name='Inheritance'/>
     </pages>
 </playground>
